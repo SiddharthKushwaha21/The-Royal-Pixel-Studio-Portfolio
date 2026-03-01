@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Luxury Wedding Photography in Auraiya | The Royal Pixel Studio</title>
+
+<meta name="description" content="The Royal Pixel Studio offers luxury wedding photography, pre-wedding shoots, portraits and cinematic wedding films in Auraiya and nearby cities.">
+<meta name="keywords" content="Wedding Photography, Pre Wedding Shoot, Portrait Photography, Wedding Films, Wedding Teasers">
+<meta name="author" content="The Royal Pixel Studio">
+
+<link rel="preconnect" href="https://res.cloudinary.com">
+<link rel="dns-prefetch" href="https://res.cloudinary.com">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css/gallery.css">
+
+</head>
+
+<body class="p-10 md:p-16">
+
+<h1 class="text-center text-5xl md:text-6xl italic mb-6">
+The Royal Collection
+</h1>
+<div class="h-[2px] w-28 bg-pink-600 mx-auto mb-12"></div>
+
+<div class="flex flex-wrap justify-center gap-4 mb-16">
+  <button class="filter-btn active px-6 py-2 rounded-full" onclick="filterGallery('all',this)">All</button>
+  <button class="filter-btn px-6 py-2 rounded-full" onclick="filterGallery('weddings',this)">Weddings</button>
+  <button class="filter-btn px-6 py-2 rounded-full" onclick="filterGallery('preweddings',this)">Pre-Weddings</button>
+  <button class="filter-btn px-6 py-2 rounded-full" onclick="filterGallery('portraits',this)">Portraits</button>
+  <button class="filter-btn px-6 py-2 rounded-full" onclick="filterGallery('cinematic',this)">Cinematic</button>
+  <button class="filter-btn px-6 py-2 rounded-full" onclick="filterGallery('teaser',this)">Teasers</button>
+</div>
+
+<div id="photoGallery" class="photo-layout"></div>
+<div id="videoGallery" class="video-layout mt-10"></div>
+
+<footer class="mt-32 py-12 text-center border-t border-white/5 text-gray-500 text-[10px] tracking-[0.35em] uppercase">
+© 2026 The Royal Pixel Studio · Luxury Wedding Photography
+</footer>
+
+<div id="lightbox">
+  <button id="closeBtn" class="light-btn" onclick="closeLightbox()">✕</button>
+  <button id="prevBtn" class="light-btn" onclick="changeSlide(-1)">‹</button>
+  <button id="nextBtn" class="light-btn" onclick="changeSlide(1)">›</button>
+</div>
+
+<script src="js/gallery.js"></script>
+</body>
+</html>
