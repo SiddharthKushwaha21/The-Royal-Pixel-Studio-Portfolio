@@ -115,5 +115,6 @@ const io = new IntersectionObserver(
       window.open(whatsappUrl, '_blank');
     });
     window.addEventListener("load", () => {
-      document.getElementById("loader").style.display = "none";
-    }); 
+     document.getElementById("loader").style.display="none";
+     document.body.style.overflow="auto";
+    });
