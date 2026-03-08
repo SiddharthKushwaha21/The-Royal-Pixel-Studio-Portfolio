@@ -139,6 +139,8 @@ You can view the live version of the project here:
 
 **Siddharth Kushwaha**
 
+*Master of Computer Applications (MCA), 2nd Year*
+
 Passionate about **Web Development, UI Design, and Building Modern Web Applications.**
 
 GitHub Profile
