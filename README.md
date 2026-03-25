@@ -131,7 +131,7 @@ Open **index.html** in your browser.
 
 You can view the live version of the project here:
 
-👉 https://royal-pixel-studio.netlify.app/
+👉 https://the-royal-pixel-studio.vercel.app/
 
 ---
 
