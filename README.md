@@ -5,7 +5,7 @@
 ## 🌐 Live Website
 
 👉 **Visit the Live Project**
-https://royal-pixel-studio.netlify.app/
+https://the-royal-pixel-studio.vercel.app/
 
 ---
 
